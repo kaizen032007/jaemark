@@ -1,4 +1,15 @@
 import random
+import mysql.connector
+
+# Connect to MySQL
+db = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Jaemarkalmeria#123",  # <-- Change if needed
+    database="student_system"
+)
+cursor = db.cursor()
+
 
 print("=" * 50)
 print("Welcome to royal high state school")
@@ -51,3 +62,13 @@ else:
         print(f"{i}. {subject}")
     print("=" * 25)
     print("Pls proceed to the admission of Royal High estate school for the next phase")
+    
+    # ✅ Save to database
+    insert_query = """
+    INSERT INTO students (first_name, last_name, age, gender, course, email)
+    VALUES (%s, %s, %s, %s, %s, %s)
+    """
+    values = (username, "N/A", int(age), "N/A", "N/A", email)
+    cursor.execute(insert_query, values)
+    db.commit()
+    print("✅ Student data saved to the database!")
