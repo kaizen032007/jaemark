@@ -1,15 +1,22 @@
+<h1 align="center">Hi 👋, I'm Jae Mark L. Almeria</h1>
+<h3 align="center">A student and aspiring developer from Philippines</h3>
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/jae mark almeria) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jaemarkalmeria08@gmail.com) 
+- 🔭 I’m currently working on **Bank System**
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=kaizen032007&theme=aura&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kaizen032007&theme=aura&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kaizen032007&theme=aura&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+- 🌱 I’m currently learning **Java, SQL, PHP**
 
----
-[![](https://visitcount.itsvg.in/api?id=kaizen032007&icon=0&color=0)](https://visitcount.itsvg.in)
+- 👯 I’m looking to collaborate on **none**
+
+- 💬 Ask me about **Python**
+
+- 📫 How to reach me **jaemarkalmeria08@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://fb.com/jae mark almeria" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jae mark almeria" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
