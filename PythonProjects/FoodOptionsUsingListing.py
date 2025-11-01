@@ -84,7 +84,10 @@ def listing():
                 new_food = input("Enter: ")
                 foods_option.append(new_food)
                 foods_option.sort()
-                print(f"Here is the new foods {new_food} {foods_option}")
+                print(f"\nHere is the new foods {new_food} {foods_option}")
+            
+            elif user_developer == '3':
+                pass
 
         else:
             print(f"'{user}' is not a valid option. Please try again.\n")
