@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jae Mark L. Almeria</h1>
-<h3 align="center">A student and aspiring developer from Philippines</h3>
+<h3 align="center">A National University student and aspiring developer from Philippines</h3>
 
 - 🔭 STATUS UPDATE: I’m not currently working on any project yet!
 
