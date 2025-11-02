@@ -48,6 +48,7 @@ def listing():
                     if back_option1 == 'yes':
                         continue
                     elif back_option1 == 'no':
+                        print("Thank you for buying! See you soon.")
                         break
                     else:
                         print("Error: The system crashed")
@@ -69,8 +70,8 @@ def listing():
             developer_options = [
                 "1. Access the Foods",
                 "2. Add Foods",
-                "3. Remove Foods",
-                "4. Checking item list\n",
+                "3. Remove Foods\n",
+            
             ]
             for developer in developer_options:
                 print(developer)
@@ -87,7 +88,11 @@ def listing():
                 print(f"\nHere is the new foods {new_food} {foods_option}")
             
             elif user_developer == '3':
-                pass
+                print(f'{foods_option}')
+                remove_food = input(f'To remove the food please choose what food you wish to removed: ')
+                foods_option.remove(remove_food)
+                foods_option.sort()
+                print(f"Here is the updated food after removal: {foods_option}")
 
         else:
             print(f"'{user}' is not a valid option. Please try again.\n")
