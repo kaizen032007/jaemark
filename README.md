@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Jae Mark L. Almeria</h1>
 <h3 align="center">A student and aspiring developer from Philippines</h3>
 
-- 🔭 I’m currently working on **Food Option System Using LISTING with Developer Options**
+- 🔭 STATUS UPDATE: I’m not currently working on any project yet!
 
-- 🌱 I’m currently learning **Java, SQL, PHP**
+- 🌱 I’m currently learning **Python, Java, SQL, PHP**
 
 - 👯 I’m looking to collaborate on **anyone**
 
