@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Jae Mark L. Almeria</h1>
 <h3 align="center">A National University student and aspiring developer from Philippines</h3>
 
-- 🔭 I’m currently working on **OOP system**
+- 🔭 I’m currently working on **API Systems**
 
 - 🌱 I’m currently learning **Java, SQL, PHP**
 
