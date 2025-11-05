@@ -168,7 +168,7 @@ class LoginPage(QWidget):
         main_layout.addWidget(right_frame)
 
     def login(self):
-            import json  # make sure to import json
+            import json  
             username = self.username_entry.text().strip().lower()
             password = self.password_entry.text().strip()
 
@@ -178,14 +178,14 @@ class LoginPage(QWidget):
                 QMessageBox.warning(self, "Error", "No registered users found. Please sign up first.")
                 return
 
-            # Load users
+            
             with open(file_path, "r") as file:
                 try:
                     users = json.load(file)
                 except json.JSONDecodeError:
                     users = []
 
-        # Check credentials
+       
             for user in users:
                 first = user.get('first_name', '').strip().lower()
                 last = user.get('last_name', '').strip().lower()
@@ -196,7 +196,7 @@ class LoginPage(QWidget):
                 QMessageBox.information(self, "Success", f"Welcome {user.get('first_name')} {user.get('last_name')}!")
                 return  # exit after successful login
 
-        # If no match found, show error (outside the loop!)
+        
             QMessageBox.warning(self, "Error", "Invalid username or password.")
 
 
